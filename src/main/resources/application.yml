@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Micro-Service1
+  cloud:
+    config:
+      username: user
+      password: password.
+  config:
+    import: configserver:http://localhost:8888
